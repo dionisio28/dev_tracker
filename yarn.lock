@@ -2039,6 +2039,11 @@
   resolved "https://registry.yarnpkg.com/@types/json-schema/-/json-schema-7.0.15.tgz#596a1747233694d50f6ad8a7869fcb6f56cf5841"
   integrity sha512-5+fP8P8MFNC+AyZCDxrB2pkZFPGzqQWUzpSeuuVLvm8VMcorNYavBqoFcxK8bQz4Qsbn4oUEEem4wDLfcysGHA==
 
+"@types/lodash@^4.17.13":
+  version "4.17.13"
+  resolved "https://registry.yarnpkg.com/@types/lodash/-/lodash-4.17.13.tgz#786e2d67cfd95e32862143abe7463a7f90c300eb"
+  integrity sha512-lfx+dftrEZcdBPczf9d0Qv0x+j/rfNCMuC6OcfXmO8gkfeNAY88PgKUbvG56whcN23gc27yenwF6oJZXGFpYxg==
+
 "@types/node-forge@^1.3.0":
   version "1.3.11"
   resolved "https://registry.yarnpkg.com/@types/node-forge/-/node-forge-1.3.11.tgz#0972ea538ddb0f4d9c2fa0ec5db5724773a604da"
@@ -2057,6 +2062,14 @@
   version "15.7.13"
   resolved "https://registry.yarnpkg.com/@types/prop-types/-/prop-types-15.7.13.tgz#2af91918ee12d9d32914feb13f5326658461b451"
   integrity sha512-hCZTSvwbzWGvhqxp/RqVqwU999pBf2vp7hzIjiYOsl8wqOmUxkQ6ddw1cV3l8811+kdUFus/q4d1Y3E3SyEifA==
+
+"@types/react-native-vector-icons@^6.4.18":
+  version "6.4.18"
+  resolved "https://registry.yarnpkg.com/@types/react-native-vector-icons/-/react-native-vector-icons-6.4.18.tgz#18671c617b9d0958747bc959903470dde91a8c79"
+  integrity sha512-YGlNWb+k5laTBHd7+uZowB9DpIK3SXUneZqAiKQaj1jnJCZM0x71GDim5JCTMi4IFkhc9m8H/Gm28T5BjyivUw==
+  dependencies:
+    "@types/react" "*"
+    "@types/react-native" "^0.70"
 
 "@types/react-native@^0.70":
   version "0.70.19"
@@ -2099,7 +2112,7 @@
     "@types/react-native" "^0.70"
     "@types/styled-components" "*"
 
-"@types/styled-components@*":
+"@types/styled-components@*", "@types/styled-components@^5.1.34":
   version "5.1.34"
   resolved "https://registry.yarnpkg.com/@types/styled-components/-/styled-components-5.1.34.tgz#4107df8ef8a7eaba4fa6b05f78f93fba4daf0300"
   integrity sha512-mmiVvwpYklFIv9E8qfxuPyIt/OuyIrn6gMOAMOFUO3WJfSrSE+sGUoa4PiZj77Ut7bKZpaa6o1fBKS/4TOEvnA==
