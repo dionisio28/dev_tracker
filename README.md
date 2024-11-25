@@ -30,6 +30,14 @@ This project is powered by the following technologies:
 - **Styled Components**
 - **React Native Vector Icons**
 
+
+## 📱 **Screenshots**
+
+| **Lista**               | **Lista de Usuários**          | **Detalhe de Usuários**       |
+|--------------------------|-------------------------------|-------------------------------|
+| ![Lista](demo/list_of_users_empty.png) | ![Lista de Usuários](demo/list_of_users.png) | ![Detalhe de Usuários](demo/user_details.png) |
+
+
 ## 🚀 **Getting Started**
 
 ### **Prerequisites**
