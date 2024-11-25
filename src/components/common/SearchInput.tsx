@@ -1,7 +1,7 @@
 import React, {useCallback} from 'react';
 import styled from 'styled-components/native';
 import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
-import { Colors } from '../../styles/colors';
+import {Colors} from '../../styles/colors';
 
 interface SearchInputProps {
   value: string;
@@ -18,7 +18,11 @@ const SearchInput: React.FC<SearchInputProps> = React.memo(
     return (
       <Container>
         <LeftIcon>
-          <MaterialIcons name="person-search" size={28} color={Colors.lightGray} />
+          <MaterialIcons
+            name="person-search"
+            size={28}
+            color={Colors.lightGray}
+          />
         </LeftIcon>
 
         <Input
@@ -44,7 +48,7 @@ export default SearchInput;
 const Container = styled.View`
   flex-direction: row;
   align-items: center;
-  border: 1px solid #ddd;
+  border: 1px solid ${Colors.opacityGray};
   border-radius: 8px;
   padding: 0 10px;
   height: 40px;

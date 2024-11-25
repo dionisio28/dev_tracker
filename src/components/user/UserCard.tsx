@@ -24,7 +24,6 @@ function areEqual(prevProps: UserCardProps, nextProps: UserCardProps) {
 
 export default UserCard;
 
-// Styled Components
 const TouchableCard = styled.TouchableOpacity`
   flex-direction: row;
   align-items: center;
@@ -50,7 +49,3 @@ const Username = styled.Text`
   font-weight: bold;
 `;
 
-const Info = styled.Text`
-  font-size: 14px;
-  color: #666;
-`;

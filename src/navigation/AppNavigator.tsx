@@ -18,7 +18,13 @@ const AppNavigator = () => {
             title: 'Dev Tracker',
           }}
         />
-        <Stack.Screen name="UserDetails" component={UserDetailsScreen} />
+        <Stack.Screen
+          name="UserDetails"
+          component={UserDetailsScreen}
+          options={{
+            title: 'Detalhes do usuário',
+          }}
+        />
       </Stack.Navigator>
     </NavigationContainer>
   );

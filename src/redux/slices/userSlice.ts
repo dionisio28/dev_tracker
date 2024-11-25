@@ -16,6 +16,7 @@ export const fetchSingleUser = createAsyncThunk(
     try {
       const user = await fetchUser(username);
       return user;
+     
     } catch (err: any) {
       return rejectWithValue(err.message || 'Unknown error occurred');
     }
@@ -39,10 +40,12 @@ const userSlice = createSlice({
     builder
       .addCase(fetchUsers.pending, state => {
         state.status = 'loading';
+        state.error = '';
       })
       .addCase(fetchUsers.fulfilled, (state, action) => {
         state.status = 'succeeded';
         state.users = action.payload;
+        state.error = '';
       })
       .addCase(fetchUsers.rejected, (state, action) => {
         state.status = 'failed';
@@ -52,10 +55,12 @@ const userSlice = createSlice({
     builder
       .addCase(fetchSingleUser.pending, state => {
         state.status = 'loading';
+        state.error = '';
       })
       .addCase(fetchSingleUser.fulfilled, (state, action) => {
         state.status = 'succeeded';
         state.selectedUser = action.payload;
+        state.error = '';
       })
       .addCase(fetchSingleUser.rejected, (state, action) => {
         state.status = 'failed';

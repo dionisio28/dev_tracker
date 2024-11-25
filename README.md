@@ -1,79 +1,91 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# **Dev Tracker**
 
-# Getting Started
+## 📖 **About**
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+This is a **React Native** project designed as a **Dev Tracker** to search and display information about GitHub users. Powered by the [GitHub API](https://docs.github.com/en/rest), the app fetches user details, repositories, and other key data.
 
-## Step 1: Start the Metro Server
+## ✨ **Features**
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
+- 🔍 **Search for GitHub users by username.**
+- 📄 **View detailed user information:**
+  - Followers
+  - Following
+  - Bio
+  - Public repositories
+- 📊 **Explore repositories sorted by:**
+  - **Name**
+  - **Stars (ascending or descending)**
+  - **Last updated**
+- 🌐 **Open repository details directly on GitHub.**
 
-To start Metro, run the following command from the _root_ of your React Native project:
+## 🛠️ **Built With**
+
+This project is powered by the following technologies:
+
+- **React Native 0.76**
+- **TypeScript**
+- **Redux Toolkit**
+- **Axios**
+- **React Navigation**
+- **Styled Components**
+- **React Native Vector Icons**
+
+## 🚀 **Getting Started**
+
+### **Prerequisites**
+
+Make sure you have the following installed on your system:
+
+- [Node.js](https://nodejs.org/)
+- [Yarn](https://yarnpkg.com/)
+- React Native CLI (`npm install -g react-native-cli`)
+
+### Step 1: Clone the repository
+  ```bash
+   git clone https://github.com/dionisio28/dev_tracker.git
+   cd dev_tracker
+   ```
+ ### Step 2: Installing the dependencies
+  ```bash
+   yarn
+   ```
+   For iOS is necessary an additional Step
+   ```bash
+   cd ios
+   pod install
+   ```
+
+### Step 2: Start the Metro Server
+
+Begin by starting **Metro**, the JavaScript bundler that comes with React Native.
 
 ```bash
-# using npm
+# Using npm
 npm start
 
 # OR using Yarn
 yarn start
 ```
 
-## Step 2: Start your Application
+### Step 3: Start the Application
+With Metro running in one terminal, open a new terminal and run your app.
 
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
-
-### For Android
+For Android
 
 ```bash
-# using npm
+# Using npm
 npm run android
 
 # OR using Yarn
 yarn android
 ```
 
-### For iOS
+For iOS
 
 ```bash
-# using npm
+# Using npm
 npm run ios
 
 # OR using Yarn
 yarn ios
 ```
-
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
-
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
-
-## Step 3: Modifying your App
-
-Now that you have successfully run the app, let's modify it.
-
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
-
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
-
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
