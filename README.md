@@ -33,9 +33,17 @@ This project is powered by the following technologies:
 
 ## 📱 **Screenshots**
 
-| **Lista**               | **Lista de Usuários**          | **Detalhe de Usuários**       |
+| **App Start**               | **User list**          | **User Details**       |
 |--------------------------|-------------------------------|-------------------------------|
 | ![Lista](demo/list_of_users_empty.png) | ![Lista de Usuários](demo/list_of_users.png) | ![Detalhe de Usuários](demo/user_details.png) |
+
+
+## 📱 **Demo Videos**
+
+| **Searching**               | **Oppening User Deatils**          | **Sorting and oppening github**       |
+|--------------------------|-------------------------------|-------------------------------|
+| ![Lista](demo/searching.gif) | ![Lista de Usuários](demo/user_data.gif) | ![Detalhe de Usuários](demo/modal.gif) |
+
 
 
 ## 🚀 **Getting Started**
